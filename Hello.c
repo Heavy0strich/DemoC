@@ -1,9 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+
+#include "Hello.h"
 
 int main()
 {
-	printf("Hello World!!");
+	show();		// Calling the Function
+	show();
+	show();
 	
 	return 0;
 }
+
